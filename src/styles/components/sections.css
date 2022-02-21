@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+
+*  First Section
+*  Second Section
+*  Third Section
+*  And So On
+
+*/
+
+@layer components {
+  .section_title_wrapper {
+    @apply relative w-full mb-0;
+  }
+  .section_title {
+    @apply block mr-3 font-semibold px-0 text-base text-gray-900 pb-3 pt-1.5 whitespace-nowrap mb-2;
+  }
+  .section_h3 {
+    @apply block mr-3 font-semibold px-0 text-base text-gray-900 pb-3 pt-1.5 whitespace-nowrap mb-2;
+  }
+}

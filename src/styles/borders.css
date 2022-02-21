@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+
+*  Text
+*  Something
+*  Something else
+
+*/
+
+/* ========== Text ========== */
+
+@layer components {
+  .letter_spacing_1 {
+    @apply tracking-wide;
+  }
+
+  .line_height_1 {
+    @apply leading-normal;
+  }
+}

@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+
+*  First Section
+*  Second Section
+*  Third Section
+*  And So On
+
+*/
+
+@layer components {
+  .card_title {
+    /* @apply relative w-full pt-1.5 pb-1 text-black text-base font-bold whitespace-nowrap overflow-ellipsis; */
+  }
+  .card_text {
+    @apply block h-16 w-full overflow-hidden pb-0 text-sm leading-snug text-black;
+  }
+  .card_hashtag {
+    @apply mr-1 inline-block text-xs leading-snug text-black;
+  }
+  .blog_title_medium {
+    @apply relative w-full pb-2 pt-1 text-2xl font-bold text-black;
+  }
+  .blog_text_medium {
+    @apply block h-16 w-full overflow-hidden pb-0 text-base font-normal leading-snug text-black;
+  }
+  .group_title_medium {
+    @apply relative w-full pt-1.5 pb-1 text-base font-bold text-black;
+  }
+  .group_text_medium {
+    @apply block h-16 w-full pb-0 text-sm font-normal leading-snug text-black;
+  }
+}
